@@ -1,8 +1,4 @@
-
-# Elastic Beanstalk Files
-.elasticbeanstalk/*
-!.elasticbeanstalk/*.cfg.yml
-!.elasticbeanstalk/*.global.yml
-
-# Project exclude paths
-/venv/
+.vscode
+.idea
+venv
+**/**/__pycache__

@@ -3,7 +3,7 @@ attrs==20.3.0
 awsebcli==3.19.3
 bcrypt==3.2.0
 blessed==1.17.12
-botocore==1.20.11
+botocore==1.19.11
 cached-property==1.5.2
 cement==2.8.2
 certifi==2019.11.28

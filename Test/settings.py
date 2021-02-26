@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ["Test-dev.ap-northeast-2.elasticbeanstalk.com", "localhost"]
 
-
 # Application definition
 
 INSTALLED_APPS = [

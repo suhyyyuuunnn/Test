@@ -121,3 +121,15 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Test', 'static'),
 ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'Test', 'static'),
+]
+AWS_DEFAULT_ACL = 'public-read'
+AWS_S3_REGION_NAME = 'ap-northeast-2'
+AWS_QUERYSTRING_AUTH = False
+AWS_ACCESS_KEY_ID = 'AKIATPQC6QXSQTJCYTFD'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'elasticbeanstalk-ap-northeast-2-239450621413'
+AWS_S3_ENDPOINT_URL = 'https://git-codecommit.ap-northeast-2.amazonaws.com/v1/repos/Test'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+STATICFILES_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
